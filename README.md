@@ -1,3 +1,5 @@
+![Quartzo logo](logo.png)
+
 # Quartzo
 
 **Quartzo** é uma aplicação para agendamento de cortes de cabelo, projetada para otimizar a gestão de horários tanto para clientes quanto para barbeiros. O objetivo é oferecer uma plataforma simples e eficiente para marcar cortes de cabelo online.
