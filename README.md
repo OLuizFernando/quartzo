@@ -21,6 +21,6 @@ As tecnologias que serão utilizadas no desenvolvimento de **Quartzo** ainda nã
 
 - **Front-end**: HTML, CSS, Bootstrap, JavaScript (possivelmente com frameworks que ainda não estão definidos)
 - **Back-end**: Node.js
-- **Banco de dados**: MySQL (ou outro SGDB)
+- **Banco de dados**: PostgreSQL (ou outro SGDB)
 
 Essas escolhas são apenas provisórias e podem ser ajustadas conforme a equipe define melhor as necessidades do projeto.
