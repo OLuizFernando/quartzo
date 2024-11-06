@@ -44,44 +44,123 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-primary me-3" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li>
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-primary me-3" type="submit">
-                  <i class="bi bi-search"></i>
-                </button>
-              </form>
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="#">
+                <i class="bi bi-house"></i> Home
+              </a>
             </li>
-                <li class="nav-item me-2">
-                <a class="nav-link" aria-current="page" href="#"
-                    ><i class="bi bi-house"></i> Home</a
-                >
-                </li>
-                <li class="nav-item me-2">
-                <a class="nav-link active" aria-current="page" href="#"
-                    ><i class="bi bi-chat-left"></i> Chat</a
-                >
-                </li>
-                <li class="nav-item me-2">
-                <a class="nav-link" aria-current="page" href="#"
-                    ><i class="bi bi-gear"></i> Configurações</a
-                >
-                </li>
-                <li class="nav-item me-2">
-                <a class="nav-link" aria-current="page" href="#"
-                    ><i class="bi bi-person"></i> Perfil</a
-                >
-                </li>
+            <li class="nav-item me-2">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="bi bi-chat-left"></i> Chat
+              </a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="#">
+                <i class="bi bi-gear"></i> Configurações
+              </a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="#">
+                <i class="bi bi-person"></i> Perfil
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-4 rounded-3 bg-body-secondary p-2">
+          <div class="card w-100" style="width: 18rem">
+            <div class="card-body">
+              <h2 class="card-title">Contatos</h2>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item py-4 fs-5">
+                <i class="bi bi-person-circle"></i> João
+              </li>
+              <li class="list-group-item py-4 fs-5 bg-body-secondary">
+                <i class="bi bi-person-circle"></i> Jorge
+              </li>
+              <li class="list-group-item py-4 fs-5">
+                <i class="bi bi-person-circle"></i> Cláudio
+              </li>
+              <li class="list-group-item py-4 fs-5">
+                <i class="bi bi-person-circle"></i> Ronaldo
+              </li>
+              <li class="list-group-item py-4 fs-5">
+                <i class="bi bi-person-circle"></i> Roberto
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-8 rounded-3 bg-body-secondary p-2">
+          <div class="card">
+            <div class="card-body height3">
+              <ul class="chat-list">
+                <li class="in">
+                  <div class="chat-img">
+                    <img src="images/profile-pic.jpg" alt="Avatar" />
+                  </div>
+                  <div class="chat-body">
+                    <div class="chat-message">
+                      <h5>Jorge</h5>
+                      <p>Opa, bom dia. Você faz o nevou?</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="out">
+                  <div class="chat-img">
+                    <img src="images/profile-pic.jpg" alt="Avatar" />
+                  </div>
+                  <div class="chat-body">
+                    <div class="chat-message">
+                      <h5>Eu</h5>
+                      <p>Bom dia. Faço sim, qual seu tipo de cabelo?</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="in">
+                  <div class="chat-img">
+                    <img src="images/profile-pic.jpg" alt="Avatar" />
+                  </div>
+                  <div class="chat-body">
+                    <div class="chat-message">
+                      <h5>Jorge</h5>
+                      <p>Meu cabelo é cacheado.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="out">
+                  <div class="chat-img">
+                    <img src="images/profile-pic.jpg" alt="Avatar" />
+                  </div>
+                  <div class="chat-body">
+                    <div class="chat-message">
+                      <h5>Eu</h5>
+                      <p>Pra fazer o nevou no cacheado fica R$140,00</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
